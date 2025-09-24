@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "loan-prediction"
+version = "0.1.0"
+description = "Project for CS F415 Data Mining"
+authors = ["Sparsh Gupta <sparsh105gupta@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.0"
+numpy = "^1.26.4"
+matplotlib = "^3.8.3"
+seaborn = "^0.13.2"
+plotly = "^5.19.0"
+nbformat = "^5.9.2"
+xgboost = "^2.0.3"
+scikit-learn = "^1.4.1.post1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
